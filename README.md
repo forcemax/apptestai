@@ -10,7 +10,7 @@ Installation
 3. Download runtest.sh script : ```wget https://raw.githubusercontent.com/forcemax/apptestai/master/runtest.sh```
 
 Windows/Mac은 자신의 Android 장비를 사용하기 위하여 [Docker Desktop](https://www.docker.com/products/docker-desktop)이 아닌 [Docker Toolbox](https://docs.docker.com/toolbox/)를 사용해야하며, 이를 위한 문서는 다음에서 확인할 수 있습니다.<br/>
-[Install Dcoker Toolbox for Android Device](DockerToolbox.md)
+[Docker Toolbox Installation for Android Device](DockerToolbox.md)
 
 Usage
 -----
