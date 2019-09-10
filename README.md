@@ -1,6 +1,6 @@
-Apptest.ai Console Tool
+Apptest.ai Console Test Tool
 =============
-Apptest.ai Console Tool은 간단한 방법으로 자신의 PC에서 자신의 Android 장비를 사용하여 Apptest.ai Test를 수행할 수 있는 도구입니다.
+Apptest.ai Console Test Tool은 간단한 방법으로 자신의 PC에서 자신의 Android 장비를 사용하여 Apptest.ai Test를 수행할 수 있는 도구입니다.
 
 
 Installation
