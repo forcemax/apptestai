@@ -8,6 +8,7 @@ Docker Toolbox v19.03.1 버전에서는 Virtualbox와 Windows 10 Host 사이에 
 Installation
 ------------ 
 1. 'Docker Toolbox for Windows' 설치 - 참조 : [Install Docker Toolbox on Windows](https://docs.docker.com/toolbox/toolbox_install_windows/)
+
 2. 'Docker Quickstart Terminal' 실행
 ```
 ### Docker machine 종료 및 제거
@@ -20,12 +21,15 @@ $ docker-machine.exe create --virtualbox-boot2docker-url https://github.com/boot
 ### Docker machine 종료
 $ docker-machine.exe stop
 ```
+
 3. 실행중인 'Docker Quickstart Terminal 종료'
+
 4. Virtualbox를 실행하여 docker-machine이 Android장비를 사용할 수 있게 설정합니다.
-<img src="img/virtualbox-machine-setting.png" width="640">
-<img src="img/virtualbox-usb-setting.png" width="640">
-<img src="img/virtualbox-usb-setting-device-select.png" width="640">
-<img src="img/virtualbox-usb-setting-final.png" width="640">
+<img src="img/virtualbox-machine-setting.png" width="640"/>
+<img src="img/virtualbox-usb-setting.png" width="640"/>
+<img src="img/virtualbox-usb-setting-device-select.png" width="640"/>
+<img src="img/virtualbox-usb-setting-final.png" width="640"/>
+
 5. 'Docker Quickstart Terminal' 실행
 ```
 ### Home directory로 이동
@@ -40,5 +44,6 @@ APPTESTAI_TEST$ wget https://raw.githubusercontent.com/forcemax/apptestai/master
 APPTESTAI_TEST$ chmod u+x runtest.sh
 APPTESTAI_TEST$ ./runtest.sh -d ce0817182be9566f0b -f application.apk
 ```
+
 6. Windows에서 해당 결과를 확인
 C:\Users\<MY ACCOUNT>\APPTESTAI_TEST\
