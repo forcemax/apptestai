@@ -45,8 +45,6 @@ Test Result
     └── output
         ├── logs                # logcat log, apptestai script log, etc...
         ├── screenshots         # screenshots, xml, action metadata
-        ├── testdroid-recording # not used
-        ├── vo                  # not used
         ├── TEST-result.html
         ├── TEST-result.json
         ├── application.apk
