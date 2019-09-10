@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONTAINER_NAME="$(uuidgen -t)"
+CONTAINER_NAME="$(python -c 'import sys,uuid; sys.stdout.write(uuid.uuid4().hex)')"
 ANDROID_DIR=${ANDROID_DIR:="${HOME}/.android"}
 
 function help() {
@@ -45,8 +45,6 @@ fi
 ### create output directories
 mkdir -p output/logs
 mkdir -p output/screenshots
-mkdir -p output/testdroid-recording
-mkdir -p output/vo
 
 ### check apk file
 if [ -f $APK_FILE ]
