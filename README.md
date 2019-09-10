@@ -42,7 +42,7 @@ Test Result
 테스를 수행하고나면 현재 디렉토리의 아래에 output 디렉토리가 생성되며 다음과 같은 구조로 되어있다.
 
     .
-    ├── output                  # 
+    └── output
         ├── logs                # logcat log, apptestai script log, etc...
         ├── screenshots         # screenshots, xml, action metadata
         ├── testdroid-recording # not used
@@ -52,17 +52,4 @@ Test Result
         ├── application.apk
         ├── console.log
         └── credentials.csv
-
-
-
-output
-  - TEST-result.html
-  - TEST-result.json
-  - application.apk
-  - console.log
-  - credentials.csv
-  - logs
-  - screenshots
-  - testdroid-recording
-  - vo
 
