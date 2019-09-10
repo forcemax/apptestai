@@ -9,7 +9,6 @@ Docker Toolbox v19.03.1 버전에서는 Virtualbox와 Windows 10 Host 사이에 
 
 Installation
 ------------ 
-**Pre-Requisites:**
 1. Download & Install [Minimal ADB and Fastboot Tool](https://androidmtk.com/download-minimal-adb-and-fastboot-tool) 
 
 2. 'Docker Toolbox for Windows' 설치 - 참조 : [Install Docker Toolbox on Windows](https://docs.docker.com/toolbox/toolbox_install_windows/)
