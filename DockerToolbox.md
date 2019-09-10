@@ -12,14 +12,14 @@ Installation
 2. 'Docker Quickstart Terminal' 실행
 ```
 ### Docker machine 종료 및 제거
-$ docker-machine.exe stop
-$ docker-machine.exe rm default
+$ docker-machine stop
+$ docker-machine rm default
 
 ### 새로운 boot2docker 이미지를 사용하여 새로운 Docker machine 생성
-$ docker-machine.exe create --virtualbox-boot2docker-url https://github.com/boot2docker/boot2docker/releases/download/v18.09.8/boot2docker.iso default
+$ docker-machine create --virtualbox-boot2docker-url https://github.com/boot2docker/boot2docker/releases/download/v18.09.8/boot2docker.iso default
 
 ### Docker machine 종료
-$ docker-machine.exe stop
+$ docker-machine stop
 ```
 
 3. 실행중인 'Docker Quickstart Terminal 종료'
@@ -34,6 +34,9 @@ $ docker-machine.exe stop
 ```
 ### Home directory로 이동
 $ cd ~
+
+### apptestai-docker docker 이미지 받기
+$ docker pull apptestai/apptestai-docker
 
 ### Test 수행 디렉토리 생성
 $ mkdir APPTESTAI_TEST
