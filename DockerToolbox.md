@@ -5,11 +5,16 @@ Docker Toolbox를 설치하고 Android 장비를 사용하기 위한 환경 구�
 Docker Toolbox v19.03.1 버전에서는 Virtualbox와 Windows 10 Host 사이에 Shared folder와 관련된 버그가 있습니다.<br/>
 해당 버그를 해결하는 방법을 함께 설명합니다.
 
+
+
 Installation
 ------------ 
-1. 'Docker Toolbox for Windows' 설치 - 참조 : [Install Docker Toolbox on Windows](https://docs.docker.com/toolbox/toolbox_install_windows/)
+**Pre-Requisites:**
+1. Download & Install [Minimal ADB and Fastboot Tool](https://androidmtk.com/download-minimal-adb-and-fastboot-tool) 
 
-2. 'Docker Quickstart Terminal' 실행
+2. 'Docker Toolbox for Windows' 설치 - 참조 : [Install Docker Toolbox on Windows](https://docs.docker.com/toolbox/toolbox_install_windows/)
+
+3. 'Docker Quickstart Terminal' 실행
 ```
 ### Docker machine 종료 및 제거
 $ docker-machine stop
@@ -22,15 +27,15 @@ $ docker-machine create --virtualbox-boot2docker-url https://github.com/boot2doc
 $ docker-machine stop
 ```
 
-3. 실행중인 'Docker Quickstart Terminal 종료'
+4. 실행중인 'Docker Quickstart Terminal 종료'
 
-4. Virtualbox를 실행하여 docker-machine이 Android장비를 사용할 수 있게 설정합니다.
+5. Virtualbox를 실행하여 docker-machine이 Android장비를 사용할 수 있게 설정합니다.
 <img src="img/virtualbox-machine-setting.png" width="640"/>
 <img src="img/virtualbox-usb-setting.png" width="640"/>
 <img src="img/virtualbox-usb-setting-device-select.png" width="640"/>
 <img src="img/virtualbox-usb-setting-final.png" width="640"/>
 
-5. 'Docker Quickstart Terminal' 실행
+6. 'Docker Quickstart Terminal' 실행
 ```
 ### Home directory로 이동
 $ cd ~
@@ -48,7 +53,7 @@ APPTESTAI_TEST$ chmod u+x runtest.sh
 APPTESTAI_TEST$ ./runtest.sh -d ce0817182be9566f0b -f application.apk
 ```
 
-6. Windows에서 해당 결과를 확인
+7. Windows에서 해당 결과를 확인
 ```
 C:\Users\<MY ACCOUNT>\APPTESTAI_TEST\
 ```
