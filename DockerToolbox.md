@@ -46,4 +46,6 @@ APPTESTAI_TEST$ ./runtest.sh -d ce0817182be9566f0b -f application.apk
 ```
 
 6. Windows에서 해당 결과를 확인
+```
 C:\Users\<MY ACCOUNT>\APPTESTAI_TEST\
+```
