@@ -22,10 +22,10 @@ $ docker-machine.exe stop
 ```
 3. 실행중인 'Docker Quickstart Terminal 종료'
 4. Virtualbox를 실행하여 docker-machine이 Android장비를 사용할 수 있게 설정합니다.
-<img src="img/virtualbox-machine-setting.png" width="360">
-<img src="img/virtualbox-usb-setting.png" width="360">
-<img src="img/virtualbox-usb-setting-device-select.png" width="360">
-<img src="img/virtualbox-usb-setting-final.png" width="360">
+<img src="img/virtualbox-machine-setting.png" width="640">
+<img src="img/virtualbox-usb-setting.png" width="640">
+<img src="img/virtualbox-usb-setting-device-select.png" width="640">
+<img src="img/virtualbox-usb-setting-final.png" width="640">
 5. 'Docker Quickstart Terminal' 실행
 ```
 ### Home directory로 이동
