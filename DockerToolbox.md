@@ -1,8 +1,8 @@
 Docker Toolbox installation for Android Device
 ==============================================
-Docker Toolbox를 설치하고 Android 장비를 사용하기 위한 환경 구성을 설명합니다.
-문서 작성 당시에는 Docker Toolbox 최신 버전이 v19.03.1이며, 이 버전에서 사용하기 위한 방법을 설명합니다.
-Docker Toolbox v19.03.1 버전에서는 Virtualbox와 Windows 10 Host 사이에 Shared folder와 관련된 버그가 있습니다.
+Docker Toolbox를 설치하고 Android 장비를 사용하기 위한 환경 구성을 설명합니다.<br/>
+문서 작성 당시에는 Docker Toolbox 최신 버전이 v19.03.1이며, 이 버전에서 사용하기 위한 방법을 설명합니다.<br/>
+Docker Toolbox v19.03.1 버전에서는 Virtualbox와 Windows 10 Host 사이에 Shared folder와 관련된 버그가 있습니다.<br/>
 해당 버그를 해결하는 방법을 함께 설명합니다.
 
 Installation
