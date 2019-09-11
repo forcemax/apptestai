@@ -26,7 +26,7 @@ $ docker-machine create --virtualbox-boot2docker-url https://github.com/boot2doc
 $ docker-machine stop
 ```
 
-4. 실행중인 'Docker Quickstart Terminal 종료'
+4. 실행중인 'Docker Quickstart Terminal' 종료
 
 5. Virtualbox를 실행하여 docker-machine이 Android장비를 사용할 수 있게 설정합니다.
 <img src="img/virtualbox-machine-setting.png" width="640"/>
