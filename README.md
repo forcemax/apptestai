@@ -7,7 +7,6 @@ Installation
 ------------
 1. Install [Docker](https://www.docker.com/)
 2. Pull the Docker image : ```docker pull apptestai/apptestai-docker```
-3. Download runtest.sh script : ```wget https://raw.githubusercontent.com/forcemax/apptestai/master/runtest.sh```
 
 Windows/Mac은 자신의 Android 장비를 사용하기 위하여 [Docker Desktop](https://www.docker.com/products/docker-desktop)이 아닌 [Docker Toolbox](https://docs.docker.com/toolbox/)를 사용해야하며, 이를 위한 문서는 다음에서 확인할 수 있습니다.<br/>
 [Docker Toolbox Installation for Android Device](DockerToolbox.md)
@@ -30,16 +29,27 @@ List of devices attached
 ce0817182be9566f0b      device
 ```
 
+**Pull Apptest.ai docker image**
+```
+$ docker pull apptestai/apptestai-docker
+```
+
 **Apptest.ai Test 실행**
 ```
-$ chmod u+x runtest.sh
-$ ./runtest.sh -d ce0817182be9566f0b -f application.apk
+### Test 수행 디렉토리 생성
+$ mkdir APPTESTAI_TEST
+$ cd APPTESTAI_TEST
+
+### runtest.sh 스크립트 다운로드 후 테스트 수행
+APPTESTAI_TEST$ curl -o runtest.sh https://raw.githubusercontent.com/forcemax/apptestai/master/runtest.sh
+APPTESTAI_TEST$ chmod u+x runtest.sh
+APPTESTAI_TEST$ ./runtest.sh -d ce0817182be9566f0b -f application.apk
 ```
 
 
 Test Result
 -----------
-테스를 수행하고나면 현재 디렉토리의 아래에 output 디렉토리가 생성되며 다음과 같은 구조로 되어있다.
+테스를 수행하고나면 현재 디렉토리의 아래에 output 디렉토리가 생성되며 다음과 같은 구조로 되어있습니다.
 
     .
     └── output
@@ -51,3 +61,5 @@ Test Result
         ├── console.log
         └── credentials.csv
 
+TEST-result.html 파일을 열어서 Apptest.ai Test 결과를 확인할 수 있습니다.
+<img src="img/test-result-html.png" width="640"/>
