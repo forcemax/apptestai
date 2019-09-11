@@ -68,7 +68,11 @@ SCRIPT_RUN_TIME=1800000  # 30 minutes
 # SCRIPT_RUN_TIME=300000  # 5 minutes
 
 ### kill host adb server
-adb kill-server
+ADB_CMD="adb"
+if [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
+   ADB_CMD="/c/Program Files (x86)/Minimal ADB and Fastboot/adb.exe"
+fi
+"$ADB_CMD" kill-server
 
 docker run --rm -it --name=${CONTAINER_NAME} ${DOCKER_FLAGS} -v maven:/root/.m2 -v ${ANDROID_DIR}:/root/.android \
   -v $(pwd)/output:/test -v /dev/bus/usb:/dev/bus/usb \
