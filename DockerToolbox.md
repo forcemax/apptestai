@@ -47,7 +47,7 @@ $ mkdir APPTESTAI_TEST
 $ cd APPTESTAI_TEST
 
 ### runtest.sh 스크립트 다운로드 후 테스트 수행
-APPTESTAI_TEST$ wget https://raw.githubusercontent.com/forcemax/apptestai/master/runtest.sh
+APPTESTAI_TEST$ curl -o runtest.sh https://raw.githubusercontent.com/forcemax/apptestai/master/runtest.sh
 APPTESTAI_TEST$ chmod u+x runtest.sh
 APPTESTAI_TEST$ ./runtest.sh -d ce0817182be9566f0b -f application.apk
 ```
