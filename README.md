@@ -62,4 +62,4 @@ Test Result
         └── credentials.csv
 
 TEST-result.html 파일을 열어서 Apptest.ai Test 결과를 확인할 수 있습니다.
-<img src="img/test-result-html.png" width="640"/>
+<img src="img/test-result-html.png" width="800"/>
