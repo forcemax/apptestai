@@ -35,7 +35,7 @@ $ docker-machine stop
 USB 1.1 (OHCI) Controller를 사용할 것을 권장합니다.
 
 만약 USB 1.1 (OHCI) Controller를 사용해서 장비가 인식되지 않는다면, USB 2.0 (EHCI) Controller 또는 USB 3.0 (xHCI) Controller를 사용해야 하는데 이 경우에는 Virtualbox Extension packs를 설치해야 합니다. Virtualbox Extension packs 설치는 다음 문서를 참고하세요.<br/>
-[1.6. Installing Oracle VM VirtualBox and Extension Packs](https://www.virtualbox.org/manual/ch01.html#intro-installing)
+[Virtualbox User Manual - 1.6. Installing Oracle VM VirtualBox and Extension Packs](https://www.virtualbox.org/manual/ch01.html#intro-installing)
 
 <img src="img/virtualbox-usb-setting-device-select.png" width="640"/>
 
