@@ -30,11 +30,15 @@ $ docker-machine stop
 
 5. Virtualbox를 실행하여 docker-machine이 Android장비를 사용할 수 있게 설정합니다.
 <img src="img/virtualbox-machine-setting.png" width="640"/>
+
 <img src="img/virtualbox-usb-setting.png" width="640"/>
 USB 1.1 (OHCI) Controller를 사용할 것을 권장합니다.
-만약 USB 1.1 (OHCI) Controller를 사용해서 장비가 인식되지 않는다면, USB 2.0 (EHCI) Controller 또는 USB 3.0 (xHCI) Controller를 사용해야 하는데 이 경우에는 Virtualbox Extension packs를 설치해야 합니다. Virtualbox Extension packs 설치는 다음 문서를 참고하세요.
+
+만약 USB 1.1 (OHCI) Controller를 사용해서 장비가 인식되지 않는다면, USB 2.0 (EHCI) Controller 또는 USB 3.0 (xHCI) Controller를 사용해야 하는데 이 경우에는 Virtualbox Extension packs를 설치해야 합니다. Virtualbox Extension packs 설치는 다음 문서를 참고하세요.<br/>
 [1.6. Installing Oracle VM VirtualBox and Extension Packs](https://www.virtualbox.org/manual/ch01.html#intro-installing)
+
 <img src="img/virtualbox-usb-setting-device-select.png" width="640"/>
+
 <img src="img/virtualbox-usb-setting-final.png" width="640"/>
 
 6. 'Docker Quickstart Terminal' 실행
