@@ -55,6 +55,7 @@ Test Result
     └── output
         ├── logs                # logcat log, apptestai script log, etc...
         ├── screenshots         # screenshots, xml, action metadata
+        ├── trace               # method profile trace files
         ├── TEST-result.html
         ├── TEST-result.json
         ├── application.apk
