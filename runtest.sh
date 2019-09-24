@@ -45,6 +45,7 @@ fi
 ### create output directories
 mkdir -p output/logs
 mkdir -p output/screenshots
+mkdir -p output/trace
 
 ### check apk file
 if [ -f $APK_FILE ]
@@ -64,8 +65,6 @@ IOD_SERVER_URL="http://220.76.90.60:9123"
 CREDENTIALS_USER="gildong4285@gmail.com"
 CREDENTIALS_PASSWORD="1q2w3e4r"
 SCRIPT_RUN_TIME=1800000  # 30 minutes
-# SCRIPT_RUN_TIME=600000  # 10 minutes
-# SCRIPT_RUN_TIME=300000  # 5 minutes
 
 ### kill host adb server
 ADB_CMD="adb"
