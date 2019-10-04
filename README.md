@@ -47,6 +47,7 @@ APPTESTAI_TEST$ ./runtest.sh -d ce0817182be9566f0b -f application.apk
 ```
 
 **Method Tracer 실행**
+
 APK 파일이 debuggable하게 패키징되어 있으면 자동으로 Method Tracer를 실행합니다.
 Method Tracer가 실행중에는 UI 반응 및 데이터 처리가 늦어집니다. 이로 인해 debuggable하지 않은 APK를 테스트하는 경우에 비해서 Test steps가 적어집니다.
 Method Tracer의 결과는 output/trace 디렉토리에 저장됩니다.
