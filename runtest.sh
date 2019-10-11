@@ -45,6 +45,7 @@ fi
 ### create output directories
 mkdir -p output/logs
 mkdir -p output/screenshots
+mkdir -p output/screenrecord
 mkdir -p output/trace
 
 ### check apk file
