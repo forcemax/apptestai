@@ -60,7 +60,7 @@ Test Result
     └── output
         ├── logs                # logcat log, apptestai script log, etc...
         ├── screenshots         # screenshots, xml, action metadata
-        ├── screenrecord        # screen recode video file
+        ├── screenrecord        # screen record video file
         ├── trace               # method tracer files
         ├── TEST-result.html
         ├── TEST-result.json
